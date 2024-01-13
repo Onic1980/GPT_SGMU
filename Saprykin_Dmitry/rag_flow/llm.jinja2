@@ -1,0 +1,16 @@
+system:
+{{prompt_text}}
+
+{% for item in history %}
+user:
+{{item.inputs.question}}
+
+assistant:
+{{item.outputs.answer}} 
+{% endfor %}
+
+user:
+{{question}}
+
+
+Также на основании представленной документации, предложите 3 варианта вопроса, как близкие по теме документации, не упоминайте саму документацию.

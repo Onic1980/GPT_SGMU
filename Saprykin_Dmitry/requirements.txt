@@ -1,0 +1,9 @@
+promptflow
+promptflow-tools
+azure-search-documents
+pytest
+langchain
+langchain-community
+unstructured
+markdown
+openai
